@@ -1,0 +1,17 @@
+cluster:
+  name: develop-cluster
+  dc: dc2
+  nodes:
+    node1: 
+      name: nosql4
+      ip: 192.168.33.44
+      seed: true
+    node2:
+      name: nosql5
+      ip: 192.168.33.45
+      seed: false
+    node3:
+      name: nosql6
+      ip: 192.168.33.46
+      seed: false
+  othseeds: nosql1
